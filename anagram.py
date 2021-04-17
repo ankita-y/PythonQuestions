@@ -5,6 +5,7 @@ str2 = input()
 def anagram(str1,str2):
     str1 = ''.join(sorted(str1.replace(" ","").lower()))
     str2 = ''.join(sorted(str2.replace(" ","").lower()))
+#     if length is not same then not a anagram
     if len(str1) != len(str2):
         return False
     else:
