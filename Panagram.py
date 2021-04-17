@@ -1,4 +1,5 @@
-str = "The quick brown fox jumps over the lazy dog"
+# str = "The quick brown fox jumps over the lazy dog"
+str = input()
 # to remove the space from the string and convert it into lower case
 str ="".join([c for c in str if c != " "]).lower()
 index = 0
