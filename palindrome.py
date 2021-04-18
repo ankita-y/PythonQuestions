@@ -1,4 +1,4 @@
-
+# To check whether number is palindrome or not
 def check_palindrome(x):
     rn = 0
     while x != 0:
