@@ -1,3 +1,4 @@
+# Weight of the string
 alpha = input().lower()
 alpha_str = {}
 c = 97
