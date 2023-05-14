@@ -20,4 +20,17 @@ for i in range(len(l2)):
         if l2[j] > l2[j+1]:
             l2[j],l2[j+1] = l2[j+1], l2[j]
 
+        # asc
+        # if l1[i] < l1[j]:
+        #     l1[i],l1[j] = l1[j],l1[i]
+        # desc
+        # if l1[i] > l1[j]:
+        #     l1[i],l1[j] = l1[j],l1[i]
+        # asc
+        # if l1[j] > l1[j+1]:
+        #     l1[j],l1[j+1] = l1[j+1],l1[j]
+        # desc
+        # if l1[j] < l1[j+1]:
+        #     l1[j],l1[j+1] = l1[j+1],l1[j]
+
 print(l2)
