@@ -1,4 +1,6 @@
 #FibonacciSeries
+# input: 10
+# output: 0 1 1 2 3 5 8 13
 n = int(input("Enter n: "))
 f1 = 0
 f2 = 1
