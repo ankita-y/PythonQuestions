@@ -2,7 +2,8 @@
 # Notes
 #     Array/list size is at least 2.
 #     Array/list numbers could be a mixture of positives, negatives also zeroes .
-
+# input: [-1, 2, 8,3,0,4,5]
+# output: 24
 def adjacentElementsProduct(arr):
   #method 1
   l = []
